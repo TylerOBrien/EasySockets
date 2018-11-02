@@ -1,5 +1,5 @@
 # EasySockets
-Lightweight framework that loosely wraps a few functions from Boost's ASIO library, primarly the asio::async_read, asio::async_write, and asio::ip::tcp::acceptor::async_accept functions.
+Lightweight framework that loosely wraps a few functions from Boost's ASIO library, primarly the [asio::async_read](https://www.boost.org/doc/libs/1_68_0/doc/html/boost_asio/reference/async_read.html), [asio::async_write](https://www.boost.org/doc/libs/1_68_0/doc/html/boost_asio/reference/async_read.html), and [asio::ip::tcp::acceptor::async_accept](https://www.boost.org/doc/libs/1_68_0/doc/html/boost_asio/reference/basic_socket_acceptor/async_accept/overload1.html) functions.
 
 # Example
 ```cpp
