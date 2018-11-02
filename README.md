@@ -35,12 +35,14 @@ int main()
   for (;;) {
     server.update();
     while (es::EventP event = server.poll()) {
+      switch (event->type) {
       case es::ACCEPT_HANDLE:
         handle_accept(event);
         break;
       case es::READ_HANDLE:
         handle_read(event);
         break;
+      }
     }
   }
 }
