@@ -37,6 +37,7 @@ int main()
     while (es::EventP event = server.poll()) {
       case es::ACCEPT_HANDLE:
         handle_accept(event);
+        break;
       case es::READ_HANDLE:
         handle_read(event);
         break;
